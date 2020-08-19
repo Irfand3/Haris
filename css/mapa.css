@@ -1,0 +1,13 @@
+.tekst{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.onHover:hover{
+    color: brown;
+}
+.mapa{
+    width: 100%; 
+overflow: hidden;
+}

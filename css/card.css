@@ -22,7 +22,8 @@
 .cards {
   min-height: 100vh;
   padding: 40px;
-
+  width: 100%; 
+  overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -39,6 +40,7 @@
 
 /* .flip-card-container */
 .flip-card-container {
+
   --hue: 150;
   --primary: hsl(var(--hue), 50%, 50%);
   --white-1: hsl(0, 0%, 90%);

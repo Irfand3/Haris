@@ -6,10 +6,13 @@
 
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animista.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/oNama.css">
     <link rel="stylesheet" href="css/kontakt.css">
+    <link rel="stylesheet" href="css/mapa.css">
+    
     <title>AMG Sarajevo</title>
 </head>
 <body>
@@ -27,9 +30,12 @@
         <a href="#"><button>Naruci se!</button></a>
     </header> -->
     
+    <header>
+
+    
     <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
          
-        <a class="navbar-brand ml-5 mr-5 pl-5 pr-5 " href="#">
+        <a class="navbar-brand ml-5 mr-5" href="#" >
             <img src="assets/logo_autopraona_crop.jpg" width="200" height="50" alt="">
           </a>
           
@@ -42,14 +48,16 @@
               <a class="nav-link  h5   mr-5 text-center text-white" href="#">Pocetna <span class="sr-only">(current)</span></a>
               <a class="nav-link  h5  mr-5   text-center text-white" href="#usluge">Usluge</a>
               <a class="nav-link  h5  mr-5  text-center text-white" href="#oNama">O nama</a>
-              <a class="nav-link  h5  mr-5  text-center text-white" href="#">Kontakt</a>
-              <a class="nav-link  naruciSe h5  mr-5  text-center text-danger " style="font-weight: 900;" href="#">Naruci se!</a>
+              <a class="nav-link  h5  mr-5  text-center text-white" href="#kontakt">Kontakt</a>
+              <a class="nav-link  naruciSe h5  mr-5  text-center  " style="font-weight: 900; color: #EC1923;" href="tel:38762060450">Naruci se!</a>
         </div>
         </div>
     </div >
+
     
     </nav> 
     
+    </header>
  
 
     
@@ -63,10 +71,28 @@
             <video src="assets/Video_Background2.mp4" autoplay muted loop></video>
         </div>
             <div class="content">
-                <h1 class="WelcomeText mb-3">Dobro došli u AMG Sarajevo</h1>
-                <h4 class="SporedniText mb-3">Usluge auto poliranja i vulkanizera</h4>
+             
+                <h1 class="WelcomeText mb-3 text-focus-in">Dobro došli u  <span style="color: #EC1923;">
+                  AMG Sarajevo </span> </h1>
+                <h4 class="SporedniText mb-3 text-focus-in2">Usluge pranja,poliranja i vulkanizera</h4>
+                <a href="#usluge" class="btn btn-outline-danger text-white pl-5 pr-5 saznajViseText text-focus-in3" id="#usluge" style="letter-spacing: 1px; border-color: #EC1923; color: #EC1923; ">Saznaj vise!</a>        
+           
+             <!--  <div class="row">
+                <div class="col-12">
+                <h1 class="WelcomeText mb-3 text-focus-in">Dobro došli u 
+                  <span style="color: #EC1923;">
+                  AMG Sarajevo </span> </h1>
+                <div class="SporedniText mb-3 " >
+                  
+                  <p class="text-focus-in2 h4" > Usluge pranja,poliranja,vulkanizera,servisa auotmobila</p>
+              
+                </div>
                 <a href="" class="btn btn-outline-danger text-white pl-5 pr-5 saznajViseText" id="#usluge" style="letter-spacing: 1px; ">Saznaj vise!</a>        
             </div>
+          </div>
+ -->
+         
+        </div>
         
     </section>
 
@@ -75,7 +101,7 @@
     <!-- flip-card-container -->
     <section class="cards" id="usluge">
       
-<div class="flip-card-container" style="--hue: 350">
+<div class="flip-card-container" style="--hue: 350; text-transform: uppercase;">
     <div class="flip-card">
   
       <div class="card-front">
@@ -101,7 +127,7 @@
           <img src="assets/vulkanizer_2.jpg" style="display:block; margin-left:auto; margin-right:auto; width:100%" alt="Brohm Lake">
         </figure>
   
-        <button>Naruci se!</button>
+        <button style=" text-transform: uppercase;"><a href="tel:38762060450" class="text-white"> Naruci se!</a></button>
   
         <div class="design-container">
           <span class="design design--1"></span>
@@ -120,7 +146,7 @@
   <!-- /flip-card-container -->
   
   <!-- flip-card-container -->
-  <div class="flip-card-container" style="--hue: 350">
+  <div class="flip-card-container" style="--hue: 350;  text-transform: uppercase;">
     <div class="flip-card">
   
       <div class="card-front">
@@ -141,7 +167,7 @@
           <img src="assets/car_service2.jpg" alt="image-2">
         </figure>
   
-        <button>Naruci se!</button>
+        <button style=" text-transform: uppercase;"><a href="tel:38762060450" class="text-white"> Naruci se!</a></button>
   
         <div class="design-container">
           <span class="design design--1"></span>
@@ -160,7 +186,7 @@
   <!-- /flip-card-container -->
   
   <!-- flip-card-container -->
-  <div class="flip-card-container" style="--hue: 350">
+  <div class="flip-card-container" style="--hue: 350;  text-transform: uppercase;">
     <div class="flip-card">
   
       <div class="card-front">
@@ -183,7 +209,7 @@
           <img src="assets/poliranje2.jpg" style="display:block; margin-left:auto; margin-right:auto; width:100%" alt="Brohm Lake">
         </figure>
   
-        <button>Naruci se!</button>
+        <button style=" text-transform: uppercase;"><a href="tel:38762060450" class="text-white"> Naruci se!</a></button>
   
         <!-- can add svg here and remove these eight spans -->
         <div class="design-container">
@@ -200,7 +226,7 @@
   
     </div>
   </div>
-  <div class="flip-card-container" style="--hue: 350">
+  <div class="flip-card-container" style="--hue: 350;  text-transform: uppercase;">
     <div class="flip-card">
   
       <div class="card-front">
@@ -224,7 +250,7 @@
           <img src="assets/pranje_2.jpg" alt="Brohm Lake">
         </figure>
   
-        <button>Naruci se!</button>
+        <button style=" text-transform: uppercase;"><a href="tel:38762060450" class="text-white"> Naruci se!</a></button>
   
         <div class="design-container">
           <span class="design design--1"></span>
@@ -242,35 +268,93 @@
   </div>
 </section>
 
-<section class="oNama" id="oNama">
+ <section class="oNama" id="oNama">
   <div class="row oNamaContainer">
-    <div class="col-sm-6 text-center textColumn" >
-      <h1 class="mt-5 oNamaHeading text-white">O nama</h1>
+    <div class="col-lg-6 col-sm-12  textColumn" >
+      <h1 class="oNamaHeading text-danger text-center">O nama</h1>
       <h6 class="text-center text-white oNamaText ml-5 mr-5 mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime esse ea eum molestiae sint sequi natus, tempora officia! Ut autem ad esse earum aperiam accusamus quibusdam ratione officiis. Odio, suscipit.
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime esse ea eum molestiae sint sequi natus, tempora officia! Ut autem ad esse earum aperiam accusamus quibusdam ratione officiis. Odio, suscipit
       </h6>
     </div>
-    <div class="col-sm-6">
-      <img src="./assets/vulkanizer.jpg" style="width: 100%; height:100vh; object-fit: contain; margin: auto; opacity: 0.5; " alt="">
+    <div class="col-lg-6 col-sm-12">
+      <img src="./assets/vulkanizer.jpg" class="img-fluid slikaGuma" alt="">
     </div>
-  </div>
-</section>
+  </div> 
+</section> 
   <!-- /flip-card-container -->
   
   <section id="kontakt" class="kontakt">
   
-  <div class="row">
-    <div class="col-12">
-      <img src="./assets/poliranje2.jpg" width="100%"  alt="">
+    <div class="row">
+      <div class="col-md-6 col-lg-6 d-none d-lg-block "> 
+        <img src="./assets/kontakt.jpg" style="height:90vh; background-size: cover; opacity: 0.9;" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-6 col-lg-6 container text-white col-sm-12" >
+        <h1 class="kontaktNaslov mt-5 text-danger"> Kontakt </h1>
+        <hp class="kontaktpodnaslov mt-3">Kontaktirajte nas putem mail-a, telefona ili navedenih drustvenih mreza</hp>
+        
+        <form action="mailto:amgsarajevo@outlook.com" method="post" enctype="text/plain">
+          <div class="form-group w-75 mt-5">
+            <label for="email" class="h5 mt-2 pt-1">Email adresa</label>
+            <input type="email" class="form-control bg-transparent text-white" id="email" placeholder="Ukucajte Email adresu">
+          </div>
+        
+        
+          <div class="form-group w-75 ">
+            <label for="email" class="h5 mt-2">Ime i Prezime</label>
+            <input type="email" class="form-control bg-transparent text-white" id="ime" placeholder="Ukucajte vase ime i prezime">
+          </div>
+        
+       
+          <div class="form-group w-75 pb-5 ">
+            <label for="email" class="h5 mt-2">Vasa poruka</label>
+            <input type="email" class="form-control bg-transparent text-white pt-5 pb-5" id="poruka" placeholder="Ukucajte poruku">
+            <button class="btn btn-block btn-outline-danger text-white mt-3 pt-2 pb-2" >POSALJI PORUKU!</button>
+          </div>
+
+         
+          <div class="socialMedia w-75 text-center ">
+          <a href="" class="mediaButton  ml-1 mr-1"> <i class="fab fa-facebook-f "></i> </a> 
+          <a href="" class="mediaButton  ml-1 mr-1"> <i class="fab fa-twitter "></i> </a> 
+          <a href="" class="mediaButton  ml-1 mr-1"><i class="fab fa-google "></i> </a> 
+          <a href="" class="mediaButton  ml-1 mr-1"> <i class="fab fa-instagram "></i> </a> 
+          <a href="" class="mediaButton  ml-1 mr-1 "> <i class="fab fa-youtube "></i> </a> 
+          </div>
+        </form>
+       
+      </div>
     </div>
-  </div>
-  <div class="row">
-
-
-  </div>
 
   </section>
   
+  <section class="mapa" style="background-color: #dbdbdb;">
+    <div class="container">
+     
+    <div class="row text-center pb-5 pt-5 " >
+
+      
+      <div class="col-lg-4 col-sm-12 mt-5 onHover">
+        <i class="fas fa-envelope-square fa-5x "></i>
+        <p class="tekst mt-5">amgsarajevo@outlook.com</p>
+      </div>
+
+      <div class="col-lg-4 col-sm-12 mt-5 onHover">
+        <i class="fas fa-phone-square-alt fa-5x"></i>
+        <p class="tekst mt-5">062 - 060 - 450 <br> 061 - 666 - 485</p>
+        
+      </div>
+
+      <div class="col-lg-4 col-sm-12 mt-5 onHover">
+        <i class="fas fa-location-arrow fa-5x"></i>
+        <p class="tekst mt-5">Lokacija: <br> Alipašina do 30, Bare-Šip, Sarajevo</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11503.502435051416!2d18.3964043!3d43.8791288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1efaa09ff57ad7dd!2sAutopraonica%20i%20vulkanizerska%20radnja%20AMG%20Sarajevo!5e0!3m2!1sbs!2sba!4v1597408424191!5m2!1sbs!2sba" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  </section>
 
     <script src="script.js"></script> 
     <script src="https://kit.fontawesome.com/6005d190be.js" crossorigin="anonymous"></script>
